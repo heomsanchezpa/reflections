@@ -1,0 +1,7 @@
+¿Qué sucede cuando se inicializa un repositorio? ¿Por qué necesita hacerlo?
+
+Se crea una carpeta oculpa llamada .git, y es donde se va creando el historial de versiones. Es ecesario hacerla para tener ahí el control de versiones, sino se perderian los archivos modificados.
+
+¿En qué se diferencia el área de puesta en escena del directorio de trabajo y del repositorio? ¿Qué valor cree que ofrece?
+
+El area puesta de escena carga temporalmente los archivos y una vez que estan listos, por medio del comando git add los manda al repositorio, que es donde se encuentran las versiones de los archivos.
